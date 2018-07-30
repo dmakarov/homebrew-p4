@@ -6,8 +6,9 @@ class P4ls < Formula
   head "https://github.com/dmakarov/p4ls.git"
 
   bottle do
+    root_url 'https://github.com/dmakarov/homebrew-p4/releases/download/v0.1'
     cellar :any_skip_relocation
-    sha256 "b4c10b1c2b2a62a6242fb88daf5dfb771048d9252c49f5fe7dbd5f32ab40a6ae" => :high_sierra
+    sha256 "55307ce94043df4ab2128af9123017e9778f0bc013de7d644f6a1e0b0928b28b" => :high_sierra
   end
 
   depends_on "bison" => :build
